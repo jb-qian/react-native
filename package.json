@@ -1,0 +1,41 @@
+{
+  "name": "app",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@react-native-community/async-storage": "^1.4.0",
+    "@react-native-community/netinfo": "^3.1.0",
+    "axios": "^0.18.0",
+    "react": "16.8.3",
+    "react-native": "0.59.8",
+    "react-native-fs": "^2.13.3",
+    "react-native-gesture-handler": "^1.2.1",
+    "react-native-largelist-v3": "^3.0.14",
+    "react-native-linear-gradient": "^2.5.4",
+    "react-native-splash-screen": "^3.2.0",
+    "react-native-spring-scrollview": "^2.0.22",
+    "react-native-syan-image-picker": "^0.3.6",
+    "react-native-webview": "^5.8.0",
+    "react-navigation": "^3.11.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/runtime": "^7.4.4",
+    "@types/jest": "^24.0.13",
+    "@types/react": "^16.8.17",
+    "@types/react-native": "^0.57.57",
+    "@types/react-test-renderer": "^16.8.1",
+    "babel-jest": "^24.8.0",
+    "jest": "^24.8.0",
+    "metro-react-native-babel-preset": "^0.54.1",
+    "react-test-renderer": "16.8.3",
+    "typescript": "^3.4.5"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
