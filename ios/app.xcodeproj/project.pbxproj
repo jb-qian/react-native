@@ -50,7 +50,7 @@
 		F6BB41163B1E493D874A8588 /* libRNSpringScrollView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 60B0C1B9AA1A4423B83AAD06 /* libRNSpringScrollView.a */; };
 		DC516627C3334B9290F00637 /* libSplashScreen.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 86BF653344E94A77A5DE2B67 /* libSplashScreen.a */; };
 		D2BB7F9DE80342229F6934BA /* libBVLinearGradient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 26D4DB82185B4C3A8DD0D826 /* libBVLinearGradient.a */; };
-		D888E8D2F71B4424975547F7 /* libRNCWebView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB02D2DD0CD24754ADE0F5EB /* libRNCWebView.a */; };
+		9CFCE393FBD249E0B64CA375 /* libRNCWebView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC97103CEFE7453397AF9F78 /* libRNCWebView.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -441,8 +441,8 @@
 		86BF653344E94A77A5DE2B67 /* libSplashScreen.a */ = {isa = PBXFileReference; name = "libSplashScreen.a"; path = "libSplashScreen.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
 		5DCA5B303BEF4D128AFC6F87 /* BVLinearGradient.xcodeproj */ = {isa = PBXFileReference; name = "BVLinearGradient.xcodeproj"; path = "../node_modules/react-native-linear-gradient/BVLinearGradient.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
 		26D4DB82185B4C3A8DD0D826 /* libBVLinearGradient.a */ = {isa = PBXFileReference; name = "libBVLinearGradient.a"; path = "libBVLinearGradient.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
-		6ABDF67EE75E4ECFB339F602 /* RNCWebView.xcodeproj */ = {isa = PBXFileReference; name = "RNCWebView.xcodeproj"; path = "../node_modules/react-native-webview/ios/RNCWebView.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
-		DB02D2DD0CD24754ADE0F5EB /* libRNCWebView.a */ = {isa = PBXFileReference; name = "libRNCWebView.a"; path = "libRNCWebView.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		7671D8D807694FA19AE7654C /* RNCWebView.xcodeproj */ = {isa = PBXFileReference; name = "RNCWebView.xcodeproj"; path = "../node_modules/react-native-webview/ios/RNCWebView.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		EC97103CEFE7453397AF9F78 /* libRNCWebView.a */ = {isa = PBXFileReference; name = "libRNCWebView.a"; path = "libRNCWebView.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -479,7 +479,7 @@
 				2ADFB3B8A32E4F8A82CC7DB5 /* libRNSyanImagePicker.a in Frameworks */,
 				DC516627C3334B9290F00637 /* libSplashScreen.a in Frameworks */,
 				D2BB7F9DE80342229F6934BA /* libBVLinearGradient.a in Frameworks */,
-				D888E8D2F71B4424975547F7 /* libRNCWebView.a in Frameworks */,
+				9CFCE393FBD249E0B64CA375 /* libRNCWebView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -679,7 +679,7 @@
 				2C1BC5DD3A714367B73D5236 /* RNSyanImagePicker.xcodeproj */,
 				92D83C7FD755437DBA5A382A /* SplashScreen.xcodeproj */,
 				5DCA5B303BEF4D128AFC6F87 /* BVLinearGradient.xcodeproj */,
-				6ABDF67EE75E4ECFB339F602 /* RNCWebView.xcodeproj */,
+				7671D8D807694FA19AE7654C /* RNCWebView.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";

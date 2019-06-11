@@ -19,7 +19,7 @@
     "react-native-splash-screen": "^3.2.0",
     "react-native-spring-scrollview": "^2.0.22",
     "react-native-syan-image-picker": "^0.3.6",
-    "react-native-webview": "^5.8.0",
+    "react-native-webview": "^5.11.0",
     "react-navigation": "^3.11.0"
   },
   "devDependencies": {
